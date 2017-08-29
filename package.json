@@ -1,27 +1,29 @@
 {
-  "name": "vue_express_session_node",
+  "name": "es6_webpack_import",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --open --hot",
+    "build": "webpack --progress --hide-modules"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.2",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.0",
-    "css-loader": "^0.28.5",
-    "file-loader": "^0.11.2",
-    "vue": "^2.4.2",
-    "vue-loader": "^13.0.4",
-    "vue-router": "^2.7.0",
-    "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.4.2",
-    "webpack": "^3.5.5",
-    "webpack-dev-server": "^2.7.1"
+    "axios": "^0.12.0",
+    "flickity": "^1.2.1",
+    "insane": "^2.5.0",
+    "jquery": "^3.0.0",
+    "jsonp": "^0.2.0",
+    "lodash": "^4.13.1",
+    "md5": "^2.2.1",
+    "slug": "^0.9.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015-native-modules": "^6.6.0",
+    "webpack": "^2.1.0-beta.15"
   }
 }
